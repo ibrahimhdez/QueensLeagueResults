@@ -13,7 +13,7 @@ struct QueensLeagueResultsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  QueensLeagueResults
+
+  Created by Ibrahim Hernández Jorge on 18/7/23.
+
+*/
+
+"results_bottomBar" = "Results";
+"teams_bottomBar" = "Teams";

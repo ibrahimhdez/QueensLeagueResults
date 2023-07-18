@@ -10,12 +10,13 @@
 		51CAC1682A6607E300D1978D /* QueensLeagueResultsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC1672A6607E300D1978D /* QueensLeagueResultsApp.swift */; };
 		51CAC16A2A6607E300D1978D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC1692A6607E300D1978D /* Persistence.swift */; };
 		51CAC16D2A6607E300D1978D /* QueensLeagueResults.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC16B2A6607E300D1978D /* QueensLeagueResults.xcdatamodeld */; };
-		51CAC16F2A6607E300D1978D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC16E2A6607E300D1978D /* ContentView.swift */; };
+		51CAC16F2A6607E300D1978D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC16E2A6607E300D1978D /* MainView.swift */; };
 		51CAC1712A6607E400D1978D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CAC1702A6607E400D1978D /* Assets.xcassets */; };
 		51CAC1752A6607E400D1978D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CAC1742A6607E400D1978D /* Preview Assets.xcassets */; };
 		51CAC17F2A6607E400D1978D /* QueensLeagueResultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC17E2A6607E400D1978D /* QueensLeagueResultsTests.swift */; };
 		51CAC1892A6607E400D1978D /* QueensLeagueResultsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC1882A6607E400D1978D /* QueensLeagueResultsUITests.swift */; };
 		51CAC18B2A6607E400D1978D /* QueensLeagueResultsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC18A2A6607E400D1978D /* QueensLeagueResultsUITestsLaunchTests.swift */; };
+		51CAC1992A66093900D1978D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51CAC19B2A66093900D1978D /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		51CAC1672A6607E300D1978D /* QueensLeagueResultsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueensLeagueResultsApp.swift; sourceTree = "<group>"; };
 		51CAC1692A6607E300D1978D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		51CAC16C2A6607E300D1978D /* QueensLeagueResults.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QueensLeagueResults.xcdatamodel; sourceTree = "<group>"; };
-		51CAC16E2A6607E300D1978D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51CAC16E2A6607E300D1978D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		51CAC1702A6607E400D1978D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51CAC1722A6607E400D1978D /* QueensLeagueResults.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QueensLeagueResults.entitlements; sourceTree = "<group>"; };
 		51CAC1742A6607E400D1978D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,6 +50,8 @@
 		51CAC1842A6607E400D1978D /* QueensLeagueResultsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueensLeagueResultsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CAC1882A6607E400D1978D /* QueensLeagueResultsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueensLeagueResultsUITests.swift; sourceTree = "<group>"; };
 		51CAC18A2A6607E400D1978D /* QueensLeagueResultsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueensLeagueResultsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51CAC19A2A66093900D1978D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		51CAC19C2A66096B00D1978D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +102,15 @@
 		51CAC1662A6607E300D1978D /* QueensLeagueResults */ = {
 			isa = PBXGroup;
 			children = (
+				51CAC19D2A660C8100D1978D /* View */,
 				51CAC1672A6607E300D1978D /* QueensLeagueResultsApp.swift */,
 				51CAC1692A6607E300D1978D /* Persistence.swift */,
-				51CAC16E2A6607E300D1978D /* ContentView.swift */,
+				51CAC16E2A6607E300D1978D /* MainView.swift */,
 				51CAC1702A6607E400D1978D /* Assets.xcassets */,
 				51CAC1722A6607E400D1978D /* QueensLeagueResults.entitlements */,
 				51CAC16B2A6607E300D1978D /* QueensLeagueResults.xcdatamodeld */,
 				51CAC1732A6607E400D1978D /* Preview Content */,
+				51CAC19B2A66093900D1978D /* Localizable.strings */,
 			);
 			path = QueensLeagueResults;
 			sourceTree = "<group>";
@@ -133,6 +138,13 @@
 				51CAC18A2A6607E400D1978D /* QueensLeagueResultsUITestsLaunchTests.swift */,
 			);
 			path = QueensLeagueResultsUITests;
+			sourceTree = "<group>";
+		};
+		51CAC19D2A660C8100D1978D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +233,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 51CAC15B2A6607E300D1978D;
 			productRefGroup = 51CAC1652A6607E300D1978D /* Products */;
@@ -240,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CAC1752A6607E400D1978D /* Preview Assets.xcassets in Resources */,
+				51CAC1992A66093900D1978D /* Localizable.strings in Resources */,
 				51CAC1712A6607E400D1978D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +281,7 @@
 			files = (
 				51CAC16D2A6607E300D1978D /* QueensLeagueResults.xcdatamodeld in Sources */,
 				51CAC1682A6607E300D1978D /* QueensLeagueResultsApp.swift in Sources */,
-				51CAC16F2A6607E300D1978D /* ContentView.swift in Sources */,
+				51CAC16F2A6607E300D1978D /* MainView.swift in Sources */,
 				51CAC16A2A6607E300D1978D /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,11 +318,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		51CAC19B2A66093900D1978D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51CAC19A2A66093900D1978D /* en */,
+				51CAC19C2A66096B00D1978D /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		51CAC18C2A6607E400D1978D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -367,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
