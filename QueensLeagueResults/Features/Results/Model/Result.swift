@@ -60,6 +60,16 @@ struct Result: Codable {
         guard let result else { return "0" }
         return result.count > 1 ? String(result[1]) : "0"
     }
+
+    func getPenaltiesLocalGoals() -> String {
+        guard let penaltiesResult else { return "0" }
+        return !penaltiesResult.isEmpty ? String(penaltiesResult[0]) : "0"
+    }
+
+    func getPenaltiesAwayGoals() -> String {
+        guard let penaltiesResult else { return "0" }
+        return penaltiesResult.count > 1 ? String(penaltiesResult[1]) : "0"
+    }
 }
 
 extension Result: Hashable {}
