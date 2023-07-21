@@ -12,6 +12,7 @@ struct ResultsView: View {
     private var teams: [Teams]
 
     init() {
+        //Mock until we upload data in Firestore
         self.teams = []
         let result = Result(localTeamId: 3,
                             awayTeamId: 7,
@@ -31,7 +32,7 @@ struct ResultsView: View {
 
     init(teams: [Teams]) {
         self.teams = teams
-
+        //Mock until we upload data in Firestore
         let result = Result(localTeamId: 3,
                             awayTeamId: 7,
                             result: [1, 1],
