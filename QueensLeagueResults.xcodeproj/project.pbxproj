@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351F9EB1ACDAAFDE1ADCE176 /* Pods_QueensLeagueResultsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE9D448F832C66DB34B5078 /* Pods_QueensLeagueResultsTests.framework */; };
+		513AE90E2A6654B80011C1D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513AE90D2A6654B80011C1D7 /* Result.swift */; };
+		517EB31F2A6A04DD00ECB306 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB31E2A6A04DD00ECB306 /* Teams.swift */; };
+		517EB3252A6A067300ECB306 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB3242A6A067300ECB306 /* State.swift */; };
+		517EB3272A6A073D00ECB306 /* KingsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB3262A6A073D00ECB306 /* KingsState.swift */; };
+		517EB32A2A6A08BB00ECB306 /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB3292A6A08BB00ECB306 /* TeamsView.swift */; };
+		517EB32C2A6A124000ECB306 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB32B2A6A124000ECB306 /* TeamCell.swift */; };
+		517EB3332A6A3C5F00ECB306 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB3322A6A3C5F00ECB306 /* Color.swift */; };
+		517EB3352A6A46B800ECB306 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB3342A6A46B800ECB306 /* ResultsView.swift */; };
+		517EB3372A6A4B2200ECB306 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB3362A6A4B2200ECB306 /* Text.swift */; };
+		517EB3392A6A4ED300ECB306 /* ResultTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB3382A6A4ED300ECB306 /* ResultTeamView.swift */; };
+		517EB33B2A6A516A00ECB306 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB33A2A6A516A00ECB306 /* ScoreboardView.swift */; };
+		517EB33D2A6A587500ECB306 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB33C2A6A587500ECB306 /* ResultCell.swift */; };
+		5188358F2A69499E00AAEB50 /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5188358E2A69499E00AAEB50 /* Split.swift */; };
+		518835942A694A6700AAEB50 /* FirestoreRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518835932A694A6700AAEB50 /* FirestoreRequest.swift */; };
+		518835982A694AC500AAEB50 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518835972A694AC500AAEB50 /* AppDIContainer.swift */; };
+		5188359A2A69F1D400AAEB50 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 518835992A69F1D400AAEB50 /* Podfile */; };
+		51A89EC92A68C55F000E6459 /* Firebase in Resources */ = {isa = PBXBuildFile; fileRef = 51A89EC82A68C55F000E6459 /* Firebase */; };
 		51CAC1682A6607E300D1978D /* QueensLeagueResultsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC1672A6607E300D1978D /* QueensLeagueResultsApp.swift */; };
 		51CAC16A2A6607E300D1978D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC1692A6607E300D1978D /* Persistence.swift */; };
 		51CAC16D2A6607E300D1978D /* QueensLeagueResults.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC16B2A6607E300D1978D /* QueensLeagueResults.xcdatamodeld */; };
@@ -17,6 +35,7 @@
 		51CAC1892A6607E400D1978D /* QueensLeagueResultsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC1882A6607E400D1978D /* QueensLeagueResultsUITests.swift */; };
 		51CAC18B2A6607E400D1978D /* QueensLeagueResultsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC18A2A6607E400D1978D /* QueensLeagueResultsUITestsLaunchTests.swift */; };
 		51CAC1992A66093900D1978D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51CAC19B2A66093900D1978D /* Localizable.strings */; };
+		C6C761B5A663D110E403D7F3 /* Pods_QueensLeagueResults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C636CD4A21CD4D9C011CF /* Pods_QueensLeagueResults.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +56,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		512323FB9B3F6E08EAF9A9F0 /* Pods-QueensLeagueResultsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueensLeagueResultsTests.debug.xcconfig"; path = "Target Support Files/Pods-QueensLeagueResultsTests/Pods-QueensLeagueResultsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		513AE90D2A6654B80011C1D7 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		517EB31E2A6A04DD00ECB306 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		517EB3242A6A067300ECB306 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		517EB3262A6A073D00ECB306 /* KingsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsState.swift; sourceTree = "<group>"; };
+		517EB3292A6A08BB00ECB306 /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
+		517EB32B2A6A124000ECB306 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		517EB3322A6A3C5F00ECB306 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		517EB3342A6A46B800ECB306 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		517EB3362A6A4B2200ECB306 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		517EB3382A6A4ED300ECB306 /* ResultTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTeamView.swift; sourceTree = "<group>"; };
+		517EB33A2A6A516A00ECB306 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
+		517EB33C2A6A587500ECB306 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		5188358E2A69499E00AAEB50 /* Split.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
+		518835932A694A6700AAEB50 /* FirestoreRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreRequest.swift; sourceTree = "<group>"; };
+		518835972A694AC500AAEB50 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
+		518835992A69F1D400AAEB50 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		51A89EC82A68C55F000E6459 /* Firebase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Firebase; sourceTree = "<group>"; };
 		51CAC1642A6607E300D1978D /* QueensLeagueResults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueensLeagueResults.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CAC1672A6607E300D1978D /* QueensLeagueResultsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueensLeagueResultsApp.swift; sourceTree = "<group>"; };
 		51CAC1692A6607E300D1978D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -52,6 +89,11 @@
 		51CAC18A2A6607E400D1978D /* QueensLeagueResultsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueensLeagueResultsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		51CAC19A2A66093900D1978D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		51CAC19C2A66096B00D1978D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		88388380126AD043E385206C /* Pods-QueensLeagueResultsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueensLeagueResultsTests.release.xcconfig"; path = "Target Support Files/Pods-QueensLeagueResultsTests/Pods-QueensLeagueResultsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8133ED44FF885E9AD98B38D /* Pods-QueensLeagueResults.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueensLeagueResults.release.xcconfig"; path = "Target Support Files/Pods-QueensLeagueResults/Pods-QueensLeagueResults.release.xcconfig"; sourceTree = "<group>"; };
+		CBE9D448F832C66DB34B5078 /* Pods_QueensLeagueResultsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueensLeagueResultsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E7EF082238431B244BC001 /* Pods-QueensLeagueResults.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueensLeagueResults.debug.xcconfig"; path = "Target Support Files/Pods-QueensLeagueResults/Pods-QueensLeagueResults.debug.xcconfig"; sourceTree = "<group>"; };
+		FB0C636CD4A21CD4D9C011CF /* Pods_QueensLeagueResults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueensLeagueResults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6C761B5A663D110E403D7F3 /* Pods_QueensLeagueResults.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351F9EB1ACDAAFDE1ADCE176 /* Pods_QueensLeagueResultsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,13 +123,155 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1847AA9D9AA3C626B65AC225 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7EF082238431B244BC001 /* Pods-QueensLeagueResults.debug.xcconfig */,
+				C8133ED44FF885E9AD98B38D /* Pods-QueensLeagueResults.release.xcconfig */,
+				512323FB9B3F6E08EAF9A9F0 /* Pods-QueensLeagueResultsTests.debug.xcconfig */,
+				88388380126AD043E385206C /* Pods-QueensLeagueResultsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		513AE90A2A6654870011C1D7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				517EB3232A6A065900ECB306 /* Commons */,
+				517EB31C2A6A04CF00ECB306 /* Teams */,
+				518835892A69495A00AAEB50 /* Split */,
+				513AE90B2A6654910011C1D7 /* Results */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		513AE90B2A6654910011C1D7 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				513AE90C2A6654A50011C1D7 /* Model */,
+				51CAC19D2A660C8100D1978D /* View */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		513AE90C2A6654A50011C1D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				513AE90D2A6654B80011C1D7 /* Result.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		517EB31C2A6A04CF00ECB306 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				517EB3282A6A08B000ECB306 /* View */,
+				517EB31D2A6A04D400ECB306 /* Model */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		517EB31D2A6A04D400ECB306 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				517EB31E2A6A04DD00ECB306 /* Teams.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		517EB3232A6A065900ECB306 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				517EB3242A6A067300ECB306 /* State.swift */,
+				517EB3262A6A073D00ECB306 /* KingsState.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		517EB3282A6A08B000ECB306 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				517EB3292A6A08BB00ECB306 /* TeamsView.swift */,
+				517EB32B2A6A124000ECB306 /* TeamCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		517EB3312A6A3C5600ECB306 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				517EB3322A6A3C5F00ECB306 /* Color.swift */,
+				517EB3362A6A4B2200ECB306 /* Text.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		518835892A69495A00AAEB50 /* Split */ = {
+			isa = PBXGroup;
+			children = (
+				5188358D2A69499500AAEB50 /* Model */,
+			);
+			path = Split;
+			sourceTree = "<group>";
+		};
+		5188358D2A69499500AAEB50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5188358E2A69499E00AAEB50 /* Split.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		518835902A694A4700AAEB50 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				518835912A694A5000AAEB50 /* Request */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		518835912A694A5000AAEB50 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				518835922A694A5B00AAEB50 /* Firebase */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		518835922A694A5B00AAEB50 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				518835932A694A6700AAEB50 /* FirestoreRequest.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		518835952A694AA100AAEB50 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				518835962A694AB200AAEB50 /* Dependencies */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		518835962A694AB200AAEB50 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				518835972A694AC500AAEB50 /* AppDIContainer.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
 		51CAC15B2A6607E300D1978D = {
 			isa = PBXGroup;
 			children = (
+				518835992A69F1D400AAEB50 /* Podfile */,
 				51CAC1662A6607E300D1978D /* QueensLeagueResults */,
 				51CAC17D2A6607E400D1978D /* QueensLeagueResultsTests */,
 				51CAC1872A6607E400D1978D /* QueensLeagueResultsUITests */,
 				51CAC1652A6607E300D1978D /* Products */,
+				1847AA9D9AA3C626B65AC225 /* Pods */,
+				E493A08F2930630AA048F0CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +288,11 @@
 		51CAC1662A6607E300D1978D /* QueensLeagueResults */ = {
 			isa = PBXGroup;
 			children = (
-				51CAC19D2A660C8100D1978D /* View */,
+				517EB3312A6A3C5600ECB306 /* Extension */,
+				518835952A694AA100AAEB50 /* Application */,
+				518835902A694A4700AAEB50 /* Domain */,
+				51A89EC82A68C55F000E6459 /* Firebase */,
+				513AE90A2A6654870011C1D7 /* Features */,
 				51CAC1672A6607E300D1978D /* QueensLeagueResultsApp.swift */,
 				51CAC1692A6607E300D1978D /* Persistence.swift */,
 				51CAC16E2A6607E300D1978D /* MainView.swift */,
@@ -143,8 +333,21 @@
 		51CAC19D2A660C8100D1978D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				517EB3342A6A46B800ECB306 /* ResultsView.swift */,
+				517EB3382A6A4ED300ECB306 /* ResultTeamView.swift */,
+				517EB33A2A6A516A00ECB306 /* ScoreboardView.swift */,
+				517EB33C2A6A587500ECB306 /* ResultCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E493A08F2930630AA048F0CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C636CD4A21CD4D9C011CF /* Pods_QueensLeagueResults.framework */,
+				CBE9D448F832C66DB34B5078 /* Pods_QueensLeagueResultsTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,15 +357,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51CAC18E2A6607E400D1978D /* Build configuration list for PBXNativeTarget "QueensLeagueResults" */;
 			buildPhases = (
+				180CFE13A17DE3F870D693B6 /* [CP] Check Pods Manifest.lock */,
 				51CAC1602A6607E300D1978D /* Sources */,
 				51CAC1612A6607E300D1978D /* Frameworks */,
+				51A89EC52A68C0B7000E6459 /* Setup Firebase Environment GoogleService-Info.plist */,
 				51CAC1622A6607E300D1978D /* Resources */,
+				EFE82D1A3AF860D3910328D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = QueensLeagueResults;
+			packageProductDependencies = (
+			);
 			productName = QueensLeagueResults;
 			productReference = 51CAC1642A6607E300D1978D /* QueensLeagueResults.app */;
 			productType = "com.apple.product-type.application";
@@ -171,9 +379,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51CAC1912A6607E400D1978D /* Build configuration list for PBXNativeTarget "QueensLeagueResultsTests" */;
 			buildPhases = (
+				68D5988349EA66935EAD7489 /* [CP] Check Pods Manifest.lock */,
 				51CAC1762A6607E400D1978D /* Sources */,
 				51CAC1772A6607E400D1978D /* Frameworks */,
 				51CAC1782A6607E400D1978D /* Resources */,
+				2CB59717E7A9131C4842127A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +446,8 @@
 				es,
 			);
 			mainGroup = 51CAC15B2A6607E300D1978D;
+			packageReferences = (
+			);
 			productRefGroup = 51CAC1652A6607E300D1978D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,7 +464,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5188359A2A69F1D400AAEB50 /* Podfile in Resources */,
 				51CAC1752A6607E400D1978D /* Preview Assets.xcassets in Resources */,
+				51A89EC92A68C55F000E6459 /* Firebase in Resources */,
 				51CAC1992A66093900D1978D /* Localizable.strings in Resources */,
 				51CAC1712A6607E400D1978D /* Assets.xcassets in Resources */,
 			);
@@ -274,15 +488,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		180CFE13A17DE3F870D693B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QueensLeagueResults-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB59717E7A9131C4842127A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueensLeagueResultsTests/Pods-QueensLeagueResultsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueensLeagueResultsTests/Pods-QueensLeagueResultsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QueensLeagueResultsTests/Pods-QueensLeagueResultsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A89EC52A68C0B7000E6459 /* Setup Firebase Environment GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase Environment GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH_TO_GOOGLE_PLISTS=\"${PROJECT_DIR}/QueensLeagueResults/Firebase\"\necho $PATH_TO_GOOGLE_PLISTS\necho ${CONFIGURATION}\necho ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}\ncase \"${CONFIGURATION}\" in\n    \"Debug\" )\n        echo \"Debug\"\n            cp -r \"$PATH_TO_GOOGLE_PLISTS/DEV/GoogleService-Info-DEV.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n            \n    \"Release\" )\n        echo \"Release\"\n            cp -r \"$PATH_TO_GOOGLE_PLISTS/PRO/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n                \n    *)\n    \n    ;;\nesac\n\n";
+		};
+		68D5988349EA66935EAD7489 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QueensLeagueResultsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE82D1A3AF860D3910328D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueensLeagueResults/Pods-QueensLeagueResults-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueensLeagueResults/Pods-QueensLeagueResults-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QueensLeagueResults/Pods-QueensLeagueResults-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51CAC1602A6607E300D1978D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5188358F2A69499E00AAEB50 /* Split.swift in Sources */,
 				51CAC16D2A6607E300D1978D /* QueensLeagueResults.xcdatamodeld in Sources */,
+				513AE90E2A6654B80011C1D7 /* Result.swift in Sources */,
 				51CAC1682A6607E300D1978D /* QueensLeagueResultsApp.swift in Sources */,
+				517EB32A2A6A08BB00ECB306 /* TeamsView.swift in Sources */,
+				518835942A694A6700AAEB50 /* FirestoreRequest.swift in Sources */,
+				517EB33D2A6A587500ECB306 /* ResultCell.swift in Sources */,
+				517EB32C2A6A124000ECB306 /* TeamCell.swift in Sources */,
+				517EB31F2A6A04DD00ECB306 /* Teams.swift in Sources */,
+				517EB3392A6A4ED300ECB306 /* ResultTeamView.swift in Sources */,
+				517EB3272A6A073D00ECB306 /* KingsState.swift in Sources */,
+				517EB33B2A6A516A00ECB306 /* ScoreboardView.swift in Sources */,
+				517EB3332A6A3C5F00ECB306 /* Color.swift in Sources */,
+				517EB3372A6A4B2200ECB306 /* Text.swift in Sources */,
 				51CAC16F2A6607E300D1978D /* MainView.swift in Sources */,
 				51CAC16A2A6607E300D1978D /* Persistence.swift in Sources */,
+				518835982A694AC500AAEB50 /* AppDIContainer.swift in Sources */,
+				517EB3352A6A46B800ECB306 /* ResultsView.swift in Sources */,
+				517EB3252A6A067300ECB306 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +772,7 @@
 		};
 		51CAC18F2A6607E400D1978D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E7EF082238431B244BC001 /* Pods-QueensLeagueResults.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +780,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"QueensLeagueResults/Preview Content\"";
+				DEVELOPMENT_TEAM = 4SQ7F9AXP7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -468,10 +798,12 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibrahimhdez.QueensLeagueResults;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibrahimhdez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,6 +812,7 @@
 		};
 		51CAC1902A6607E400D1978D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8133ED44FF885E9AD98B38D /* Pods-QueensLeagueResults.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,6 +820,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"QueensLeagueResults/Preview Content\"";
+				DEVELOPMENT_TEAM = 4SQ7F9AXP7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -504,10 +838,12 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibrahimhdez.QueensLeagueResults;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibrahimhdez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,6 +852,7 @@
 		};
 		51CAC1922A6607E400D1978D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512323FB9B3F6E08EAF9A9F0 /* Pods-QueensLeagueResultsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,7 +865,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibrahimhdez.QueensLeagueResultsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -538,6 +877,7 @@
 		};
 		51CAC1932A6607E400D1978D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88388380126AD043E385206C /* Pods-QueensLeagueResultsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -550,7 +890,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibrahimhdez.QueensLeagueResultsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -571,7 +913,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibrahimhdez.QueensLeagueResultsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -592,7 +936,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibrahimhdez.QueensLeagueResultsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

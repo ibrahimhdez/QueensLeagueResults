@@ -7,4 +7,6 @@
 */
 
 "results_bottomBar" = "Resultados";
+"clasification_bottomBar" = "Clasificación";
 "teams_bottomBar" = "Equipos";
+"game_finished" = "FINAL";
