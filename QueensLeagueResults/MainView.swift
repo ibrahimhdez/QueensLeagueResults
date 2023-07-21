@@ -8,28 +8,6 @@
 import SwiftUI
 
 struct MainView: View {
-    enum Tab: Int {
-        case results = 0
-        case clasification
-        case teams
-
-        var title: String {
-            switch self {
-            case .results: return "results_bottomBar"
-            case .clasification: return "clasification_bottomBar"
-            case .teams: return "teams_bottomBar"
-            }
-        }
-
-        var iconName: String {
-            switch self {
-            case .results: return "soccerball"
-            case .clasification: return "list.bullet"
-            case .teams: return "tshirt.fill"
-            }
-        }
-    }
-
     @State var teams: [Teams] = []
     @State private var selectedTab = Tab.results
     @State private var currentJourney: String = "J11"
