@@ -15,7 +15,7 @@ struct ScoreboardView: View {
             Text(getResultString())
                 .foregroundColor(.white)
                 .font(.system(size: 24, weight: .bold))
-                .minimumScaleFactor(0.09)
+                .minimumScaleFactor(0.1)
                 .lineLimit(1)
             if result.isFinished ?? false {
                 Text("game_finished")
