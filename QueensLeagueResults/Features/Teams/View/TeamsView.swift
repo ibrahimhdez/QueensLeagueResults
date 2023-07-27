@@ -10,6 +10,8 @@ import Combine
 
 struct TeamsView: View {
     @State var teams: [Teams] = []
+    @State private var tappedTeam: Teams? = nil
+    @State private var navigateToTeamBackground = false
     private let firestore = FirestoreRequest.shared
     private let collectionName = "teams"
 
@@ -21,6 +23,13 @@ struct TeamsView: View {
                 ForEach(teams, id: \.self) { team in
                     TeamCell(team)
                         .padding(.horizontal)
+                        .gesture(
+                            TapGesture()
+                                .onEnded { _ in
+                                    tappedTeam = team
+                                    navigateToTeamBackground = true
+                                }
+                        )
                 }
             }
         }
@@ -31,9 +40,9 @@ struct TeamsView: View {
 
 struct TeamsView_Previews: PreviewProvider {
     static var previews: some View {
-        let team = Teams(name: "Ibrahim FC",
-                         president: "Ibrahim Hernandez Jorge",
-                         image: "porcinos")
+//        let team = Teams(name: "Ibrahim FC",
+//                         president: "Ibrahim Hernandez Jorge",
+//                         image: "porcinos")
 
         TeamsView()
     }

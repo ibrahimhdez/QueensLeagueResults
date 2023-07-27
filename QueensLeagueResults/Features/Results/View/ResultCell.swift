@@ -20,15 +20,11 @@ struct ResultCell: View {
 
     var body: some View {
         HStack {
+            ResultTeamView(team: localTeam)
             Spacer()
-            HStack {
-                ResultTeamView(team: localTeam)
-                Spacer()
-                ScoreboardView(result: result)
-                Spacer()
-                ResultTeamView(team: awayTeam)
-            }
+            ScoreboardView(result: result)
             Spacer()
+            ResultTeamView(team: awayTeam)
         }
         .frame(height: 110)
         .padding(.horizontal)

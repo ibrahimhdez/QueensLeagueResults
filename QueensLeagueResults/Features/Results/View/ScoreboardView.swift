@@ -14,7 +14,9 @@ struct ScoreboardView: View {
         VStack(spacing: 5) {
             Text(getResultString())
                 .foregroundColor(.white)
-                .font(.system(size: (result.thereWerePenalties ?? false) ? 20 : 24, weight: .bold))
+                .font(.system(size: 24, weight: .bold))
+                .minimumScaleFactor(0.09)
+                .lineLimit(1)
             if result.isFinished ?? false {
                 Text("game_finished")
                     .foregroundColor(.white)
@@ -27,7 +29,7 @@ struct ScoreboardView: View {
 private extension ScoreboardView {
     func getResultString() -> String {
         let isPenaltiesResult = result.thereWerePenalties ?? false
-        var resultString = "\(isPenaltiesResult ? "(\(result.getPenaltiesLocalGoals()))" : "")"
+        var resultString = "\(isPenaltiesResult ? "(\(result.getPenaltiesLocalGoals())) " : "")"
         resultString += "\(result.getLocalGoals()) - \(result.getAwayGoals())"
         resultString += "\(isPenaltiesResult ? " (\(result.getPenaltiesAwayGoals()))" : "")"
 

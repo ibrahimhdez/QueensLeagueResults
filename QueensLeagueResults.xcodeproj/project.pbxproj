@@ -18,6 +18,7 @@
 		517EB33B2A6A516A00ECB306 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB33A2A6A516A00ECB306 /* ScoreboardView.swift */; };
 		517EB33D2A6A587500ECB306 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB33C2A6A587500ECB306 /* ResultCell.swift */; };
 		517EB3432A6A7D7C00ECB306 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB3422A6A7D7C00ECB306 /* Tab.swift */; };
+		517EB3452A6A898800ECB306 /* TeamsBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB3442A6A898800ECB306 /* TeamsBackgroundView.swift */; };
 		5188358F2A69499E00AAEB50 /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5188358E2A69499E00AAEB50 /* Split.swift */; };
 		518835942A694A6700AAEB50 /* FirestoreRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518835932A694A6700AAEB50 /* FirestoreRequest.swift */; };
 		518835982A694AC500AAEB50 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518835972A694AC500AAEB50 /* AppDIContainer.swift */; };
@@ -65,6 +66,7 @@
 		517EB33A2A6A516A00ECB306 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
 		517EB33C2A6A587500ECB306 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
 		517EB3422A6A7D7C00ECB306 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		517EB3442A6A898800ECB306 /* TeamsBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsBackgroundView.swift; sourceTree = "<group>"; };
 		5188358E2A69499E00AAEB50 /* Split.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
 		518835932A694A6700AAEB50 /* FirestoreRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreRequest.swift; sourceTree = "<group>"; };
 		518835972A694AC500AAEB50 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			children = (
 				517EB3292A6A08BB00ECB306 /* TeamsView.swift */,
 				517EB32B2A6A124000ECB306 /* TeamCell.swift */,
+				517EB3442A6A898800ECB306 /* TeamsBackgroundView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -595,6 +598,7 @@
 				518835942A694A6700AAEB50 /* FirestoreRequest.swift in Sources */,
 				517EB33D2A6A587500ECB306 /* ResultCell.swift in Sources */,
 				517EB32C2A6A124000ECB306 /* TeamCell.swift in Sources */,
+				517EB3452A6A898800ECB306 /* TeamsBackgroundView.swift in Sources */,
 				517EB31F2A6A04DD00ECB306 /* Teams.swift in Sources */,
 				517EB3392A6A4ED300ECB306 /* ResultTeamView.swift in Sources */,
 				517EB33B2A6A516A00ECB306 /* ScoreboardView.swift in Sources */,
