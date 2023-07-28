@@ -26,9 +26,9 @@ struct MainView: View {
                 .foregroundColor(.white)
 
             switch selectedTab {
-            case .clasification:
+            case .classification:
                 ScrollView(.vertical, showsIndicators: false) {
-                    Text("Clasification")
+                    ClassificationView()
                 }
             case .results:
                 journeysSelectorView
@@ -105,10 +105,10 @@ private extension MainView {
 
             Text("")
                 .tabItem {
-                    Image(systemName: Tab.clasification.iconName)
-                    Text(LocalizedStringKey(Tab.clasification.title))
+                    Image(systemName: Tab.classification.iconName)
+                    Text(LocalizedStringKey(Tab.classification.title))
                 }
-                .tag(Tab.clasification)
+                .tag(Tab.classification)
 
             Text("")
                 .tabItem {

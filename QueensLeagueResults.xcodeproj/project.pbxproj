@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		351F9EB1ACDAAFDE1ADCE176 /* Pods_QueensLeagueResultsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE9D448F832C66DB34B5078 /* Pods_QueensLeagueResultsTests.framework */; };
+		5115FD872A720C8F0048730B /* ClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115FD862A720C8F0048730B /* ClassificationView.swift */; };
 		513AE90E2A6654B80011C1D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513AE90D2A6654B80011C1D7 /* Result.swift */; };
 		517EB31F2A6A04DD00ECB306 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB31E2A6A04DD00ECB306 /* Teams.swift */; };
 		517EB32A2A6A08BB00ECB306 /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB3292A6A08BB00ECB306 /* TeamsView.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5115FD862A720C8F0048730B /* ClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationView.swift; sourceTree = "<group>"; };
 		512323FB9B3F6E08EAF9A9F0 /* Pods-QueensLeagueResultsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueensLeagueResultsTests.debug.xcconfig"; path = "Target Support Files/Pods-QueensLeagueResultsTests/Pods-QueensLeagueResultsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		513AE90D2A6654B80011C1D7 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		517EB31E2A6A04DD00ECB306 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
@@ -132,9 +134,26 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5115FD842A720C780048730B /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				5115FD852A720C840048730B /* View */,
+			);
+			path = Classification;
+			sourceTree = "<group>";
+		};
+		5115FD852A720C840048730B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5115FD862A720C8F0048730B /* ClassificationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		513AE90A2A6654870011C1D7 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				5115FD842A720C780048730B /* Classification */,
 				517EB3402A6A7D6D00ECB306 /* Commons */,
 				517EB31C2A6A04CF00ECB306 /* Teams */,
 				518835892A69495A00AAEB50 /* Split */,
@@ -604,6 +623,7 @@
 				517EB33B2A6A516A00ECB306 /* ScoreboardView.swift in Sources */,
 				517EB3332A6A3C5F00ECB306 /* Color.swift in Sources */,
 				51CAC16F2A6607E300D1978D /* MainView.swift in Sources */,
+				5115FD872A720C8F0048730B /* ClassificationView.swift in Sources */,
 				51CAC16A2A6607E300D1978D /* Persistence.swift in Sources */,
 				518835982A694AC500AAEB50 /* AppDIContainer.swift in Sources */,
 				517EB3352A6A46B800ECB306 /* ResultsView.swift in Sources */,
