@@ -1,5 +1,5 @@
 # QueensLeagueResults
-iOS app for the Spanish women's soccer league. For more information: [QueensLeague official page](www.queensleague.pro)
+iOS app for the Spanish women's soccer league. For more information: [QueensLeague official page](https://queensleague.pro)
 
 ## Progress screenshots
 ### Results screen
