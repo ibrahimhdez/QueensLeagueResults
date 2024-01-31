@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TeamsBackgroundView: View {
-    let team: Teams?
+    private let team: Teams?
 
     var body: some View {
         Text(team?.name ?? "")

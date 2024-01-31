@@ -24,6 +24,7 @@
 		518835942A694A6700AAEB50 /* FirestoreRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518835932A694A6700AAEB50 /* FirestoreRequest.swift */; };
 		518835982A694AC500AAEB50 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518835972A694AC500AAEB50 /* AppDIContainer.swift */; };
 		5188359A2A69F1D400AAEB50 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 518835992A69F1D400AAEB50 /* Podfile */; };
+		51A51AA32B6A206C00C5F85B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A51AA22B6A206C00C5F85B /* MainViewModel.swift */; };
 		51A89EC92A68C55F000E6459 /* Firebase in Resources */ = {isa = PBXBuildFile; fileRef = 51A89EC82A68C55F000E6459 /* Firebase */; };
 		51CAC1682A6607E300D1978D /* QueensLeagueResultsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC1672A6607E300D1978D /* QueensLeagueResultsApp.swift */; };
 		51CAC16A2A6607E300D1978D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAC1692A6607E300D1978D /* Persistence.swift */; };
@@ -73,6 +74,7 @@
 		518835932A694A6700AAEB50 /* FirestoreRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreRequest.swift; sourceTree = "<group>"; };
 		518835972A694AC500AAEB50 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
 		518835992A69F1D400AAEB50 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		51A51AA22B6A206C00C5F85B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		51A89EC82A68C55F000E6459 /* Firebase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Firebase; sourceTree = "<group>"; };
 		51CAC1642A6607E300D1978D /* QueensLeagueResults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueensLeagueResults.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CAC1672A6607E300D1978D /* QueensLeagueResultsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueensLeagueResultsApp.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		513AE90A2A6654870011C1D7 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				51A51AA12B6A205E00C5F85B /* MainView */,
 				5115FD842A720C780048730B /* Classification */,
 				517EB3402A6A7D6D00ECB306 /* Commons */,
 				517EB31C2A6A04CF00ECB306 /* Teams */,
@@ -278,6 +281,15 @@
 			path = Dependencies;
 			sourceTree = "<group>";
 		};
+		51A51AA12B6A205E00C5F85B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				51CAC16E2A6607E300D1978D /* MainView.swift */,
+				51A51AA22B6A206C00C5F85B /* MainViewModel.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 		51CAC15B2A6607E300D1978D = {
 			isa = PBXGroup;
 			children = (
@@ -311,7 +323,6 @@
 				513AE90A2A6654870011C1D7 /* Features */,
 				51CAC1672A6607E300D1978D /* QueensLeagueResultsApp.swift */,
 				51CAC1692A6607E300D1978D /* Persistence.swift */,
-				51CAC16E2A6607E300D1978D /* MainView.swift */,
 				51CAC1702A6607E400D1978D /* Assets.xcassets */,
 				51CAC1722A6607E400D1978D /* QueensLeagueResults.entitlements */,
 				51CAC16B2A6607E300D1978D /* QueensLeagueResults.xcdatamodeld */,
@@ -623,6 +634,7 @@
 				517EB33B2A6A516A00ECB306 /* ScoreboardView.swift in Sources */,
 				517EB3332A6A3C5F00ECB306 /* Color.swift in Sources */,
 				51CAC16F2A6607E300D1978D /* MainView.swift in Sources */,
+				51A51AA32B6A206C00C5F85B /* MainViewModel.swift in Sources */,
 				5115FD872A720C8F0048730B /* ClassificationView.swift in Sources */,
 				51CAC16A2A6607E300D1978D /* Persistence.swift in Sources */,
 				518835982A694AC500AAEB50 /* AppDIContainer.swift in Sources */,

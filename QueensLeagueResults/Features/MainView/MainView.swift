@@ -11,9 +11,8 @@ struct MainView: View {
     @State var teams: [Teams] = []
     @State private var selectedTab = Tab.results
     @State private var currentJourney: String = "J11"
-    private let firestore = FirestoreRequest.shared
-    private let teamsCollectionName = "teams"
-    let journeys: [String] = ["J1", "J2", "J3", "J4", "J5", "J6", "J7", "J8", "J9", "J10", "J11"].reversed()
+    private let viewModel = MainViewModel()
+    private let journeys: [String] = ["J1", "J2", "J3", "J4", "J5", "J6", "J7", "J8", "J9", "J10", "J11"].reversed()
 
     var body: some View {
         VStack {
@@ -55,11 +54,11 @@ struct MainView: View {
 
 private extension MainView {
     func getTeams() {
-        firestore.getData(collectionName: teamsCollectionName, Teams.self, success: { teams in
+        viewModel.getTeams { teams in
             self.teams = teams.sorted { $0.id ?? 0 < $1.id ?? 0 }
-        }, error: {
+        } error: {
             self.teams = []
-        })
+        }
     }
     
     var journeysSelectorView: some View {

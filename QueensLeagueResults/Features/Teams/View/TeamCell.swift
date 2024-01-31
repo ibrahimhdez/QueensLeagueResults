@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TeamCell: View {
-    let team: Teams
+    private let team: Teams
 
     init(_ team: Teams) {
         self.team = team
